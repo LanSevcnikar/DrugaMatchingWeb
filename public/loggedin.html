@@ -1,0 +1,66 @@
+<html>
+
+<head>
+        <title>Druga matching</title>
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-firestore.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="loggedin.css" />
+</head>
+
+<header>
+        <div class="header-row">
+                <div class="header-element left"
+                style="text-align: left; color: white; font-size: 20px; margin: 15px 5px 3px 0px;">
+                        <a href="help.html" class="headerlink">
+                                Help:
+                        </a>
+                </div>
+                <div class="header-element middle">
+                        <a href="index.html" class="headerlink" style="text-align: center">
+                                Druga matching
+                        </a>
+                </div>
+                <div class="header-element right headerlink"
+                        style="text-align: right; color: white; font-size: 20px; margin: 15px 5px 3px 0px;">
+                        <a href="about.html" class="headerlink">
+                                O meni:
+                        </a>
+                </div>
+        </div>
+</header>
+
+<body>
+        <div id="ConfiremedEmail">
+                <div id="user_div" class="loggedin-div">
+                        <div style="text-align: left; float: right; width: 80%;">
+                                <h3 id="Welcome-user">Serbus</h3>
+                                <div class="createcrush-div">
+                                        <input type="email" placeholder="Email tvoje ljubezni..." id="email_field" />
+                                        <button onclick="dodajmail()"> Dodaj svojo ljubezen</button>
+                                </div>
+                        </div>
+                        <ul id="listOfCrushes" style="list-style: none; padding: 0px 0px 300px 0px;">
+
+                        </ul>
+
+                </div>
+        </div>
+        <div class="footer">
+                <button onclick="logout()" class="logout-button">
+                        <div style="font-size: 140%">Logout</div>
+                        (Logging in and out can fix an issue)
+                </button>
+        </div>
+
+
+        <script src="loggedin.js"></script>
+</body>
+
+</html>
+
+<!--
+                                <li><div class="element BLUE"><div class="mdle" style="display: block;"><button class="vm" style="display: block;">katarina.les@druga.si</button><button class="deletebutton">Delete</button></div></div></li><li><div class="element YELLOW"><div class="mdle" style="display: block;"><button class="vm" style="display: block;">matija.likar@druga.si</button><button class="deletebutton">Delete</button></div></div></li><li><div class="element ORANGE"><div class="mdle" style="display: block;"><button class="vm" style="display: block;">miha.govedic@druga.si</button><button class="deletebutton">Delete</button></div></div></li><li><div class="element BLUE"><div class="mdle" style="display: block;"><button class="vm" style="display: block;">tim@druga.si</button><button class="deletebutton">Delete</button></div></div></li><li><div class="element YELLOW"><div class="mdle" style="display: block;"><button class="vm" style="display: block;">timotej@druga.si</button><button class="deletebutton">Delete</button></div></div></li><li><div class="element ORANGE"><div class="mdle" style="display: block;"><button class="vm" style="display: block;">john@druga.si</button><button class="deletebutton">Delete</button></div></div></li><li><div class="WHITE"></div></li>"
+-->

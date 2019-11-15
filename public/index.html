@@ -1,0 +1,65 @@
+<html>
+
+<head>
+        <title>Druga matching</title>
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-firestore.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="index.css" />
+</head>
+
+<header>
+        <div class="header-row">
+                <div class="header-element left"
+                        style="text-align: left; color: white; font-size: 20px; margin: 15px 5px 3px 0px;">
+                        <a href="help.html" class="headerlink">
+                                Help:
+                        </a>
+                </div>
+                <div class="header-element middle">
+                        <a href="index.html" class="headerlink" style="text-align: center">
+                                Druga matching
+                        </a>
+                </div>
+                <div class="header-element right headerlink"
+                        style="text-align: right; color: white; font-size: 20px; margin: 15px 5px 3px 0px;">
+                        <a href="about.html" class="headerlink">
+                                O meni:
+                        </a>
+                </div>
+        </div>
+</header>
+
+<body>
+
+        <div id="main-div" class="main-div">
+                <h3>Zdravo, deca!</h3>
+                <button id="SignupWithGoogle" onclick="loginGoogle()" class="DGMButton">
+                        Sign in
+                </button>
+                <p>
+                        Ne pozabi, samo Druga mail
+                </p>
+
+        </div>
+        <script>
+                var firebaseConfig = {
+                        apiKey: "AIzaSyAkH4v_7B-Tm6XKjm60xI26oTEYkrjOnz4",
+                        authDomain: "drugamatchingweb.firebaseapp.com",
+                        databaseURL: "https://drugamatchingweb.firebaseio.com",
+                        projectId: "drugamatchingweb",
+                        storageBucket: "drugamatchingweb.appspot.com",
+                        messagingSenderId: "1019970943209",
+                        appId: "1:1019970943209:web:295d8cacdf789b77671878",
+                        measurementId: "G-MC378R6FV2"
+                };
+                firebase.initializeApp(firebaseConfig);
+        </script>
+        <script src="index.js"></script>
+
+
+</body>
+
+</html>

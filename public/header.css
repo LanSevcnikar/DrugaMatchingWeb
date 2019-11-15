@@ -1,0 +1,47 @@
+header {
+        background: #829EE7;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #fff;
+}
+
+.header-element {        
+        padding: 10px;
+        color: #fff;
+}
+
+.header-row:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+.left, .right {
+        width: 22%;
+        padding: 5px 15px;
+}
+
+.left {
+        float: left;
+}
+
+.right {
+        float: right;
+}
+
+.middle {
+        float: left;
+        width: 45%;
+        text-align: center;
+}
+
+#headerkey {
+        width: 62px;
+        height: 32px;
+        padding: 4px 20px 1px 20px;
+}
+
+.headerlink {
+        color: #fff;
+}

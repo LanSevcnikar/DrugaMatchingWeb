@@ -1,0 +1,185 @@
+body {
+        background: #fff;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+}
+
+.loggedin-div {
+        width: 50%;
+        margin: 0px auto;
+        margin-top: 100px;
+        padding: 20px;
+        display: inline-flexbox;
+}
+
+.logout-button {
+        background: #FE6100;
+        color: #fff;
+        border: 3px solid #FE6100;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+}
+
+.logout-button:hover {
+        background: #fff;
+        color: #FE6100;
+        border: 1px solid #FE6100;
+        cursor: pointer;
+}
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: white;
+        text-align: center;
+}
+
+.deletebutton {
+        width: 100%;
+        text-align: center;
+        display: none;
+        background: red;
+        border: 3px solid red;
+}
+
+.con {
+        display: none;
+        overflow: scroll;
+        background-color: white;
+}
+
+.createcrush-div {
+        margin: 0px auto;
+        display: inline;
+}
+
+.createcrush-div input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: #fff;
+        padding: 15px;
+        outline: none;
+        width: 60%;
+        margin-bottom: 20px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+}
+
+.createcrush-div button {
+        background: #fff;
+        color: black;
+        font-weight: 700;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 15px;
+        width: 35%;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+}
+
+.createcrush-div button:hover {
+        background: #fff;
+        color: #ccc;
+        border: 1px solid black;
+        cursor: pointer;
+}
+
+.element {
+        margin: 0px;
+        padding: 10px;
+        font-size: 20px;
+        height: 80px;
+        float: left;
+        width: 100%
+}
+
+.con {
+        display: none;
+        overflow: scroll;
+        background-color: white;
+}
+
+li {
+        background: #fff;
+        display: block;
+}
+
+ul {
+        border: 5px solid white;
+        border-radius: 100px;
+}
+
+.mdle {
+        height: 80%;
+        width: 90%;
+        float: right;
+        background: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        text-align-last: middle;
+        border-radius: 15px;
+}
+
+.vm {
+        background: #fff;
+        color: black;
+        border: 3px solid #fff;
+        font-size: 100%;
+        font-weight: 700;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        height: 100%;
+        display: -webkit-flexbox;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        justify-content: center;
+}
+
+.vm:hover {
+        background: #fff;
+        color: rgb(119, 119, 119);
+        border: 1px solid rgb(119, 119, 119);
+        cursor: pointer;
+    }
+
+.ORANGE {
+        background-color: #FE6100;
+        border: 0px solid white;
+        border-radius: 10px;
+}
+
+.YELLOW {
+        background-color: yellow;
+        border: 0px solid white;
+        border-radius: 10px;
+}
+
+.BLUE {
+        background-color: #829EE7;
+        border: 0px solid white;
+        border-radius: 10px;
+}
+
+.WHITE {
+        height: 150px;
+}
