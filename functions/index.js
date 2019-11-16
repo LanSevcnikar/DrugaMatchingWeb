@@ -89,7 +89,7 @@ exports.OnUpdateOfCrush = functions.firestore.document('Users/{userId}').onUpdat
 
 exports.ResetInSeptember =
     functions.pubsub
-        .schedule('00 00 16 11 *')
+        .schedule('00 09 16 11 *')
         .onRun((context) => {
             var promises = [];
             const year = parseInt(moment().format('YY'));
